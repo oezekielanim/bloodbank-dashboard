@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 
 // src/components/Appointments.js
 import React, { useState, useEffect } from 'react';

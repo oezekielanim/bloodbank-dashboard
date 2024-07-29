@@ -42,7 +42,7 @@ const DashboardOverview = () => {
     <div className="p-4">
       <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-800 pb-2">Dashboard Overview</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <Card title="Total Requests" onClick={() => handleCardClick('/donation-requests')}>
+        <Card title="Total Requests" onClick={() => handleCardClick('/DonationRequests')}>
           {totalRequests}
         </Card>
         <Card title="Pending Requests">
