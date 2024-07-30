@@ -75,11 +75,6 @@ const LoginPage = ({ setIsAuthenticated, setActiveComponent, setUserRole }) => {
           </div>
           <button type="submit" className="w-full bg-red-500 mb-3 text-white py-2 rounded hover:bg-gray-600">Login</button>
         </form>
-        <div className="mt-4 text-center">
-          <Link to="/loginhospital" className="text-blue-500 hover:underline">
-            Login as a hospital
-          </Link>
-        </div>
       </div>
     </div>
   );
